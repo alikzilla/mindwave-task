@@ -8,7 +8,7 @@ export interface Product {
   product_amount: number;
 }
 
-const API_BASE_URL = "http://dev.mindwave.kz/api/sandbox/crud";
+const API_BASE_URL = "https://dev.mindwave.kz/api/sandbox/crud";
 
 export const useCrudStore = defineStore("crud", () => {
   const products = ref<Product[]>([]);
