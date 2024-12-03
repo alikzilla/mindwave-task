@@ -3,7 +3,6 @@
     <h1>Product List</h1>
     <div v-if="isLoading">Loading...</div>
     <div v-if="error">{{ error }}</div>
-    <div>Allow "Insecure content" in your browser if you have Network error</div>
 
     <form @submit.prevent="onSubmitForm">
       <input v-model="form.product_name" placeholder="Product Name" required />

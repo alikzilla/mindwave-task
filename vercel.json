@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/sandbox/crud",
+      "destination": "http://dev.mindwave.kz/api/sandbox/crud"
+    }
+  ]
+}
